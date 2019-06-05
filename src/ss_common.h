@@ -18,12 +18,8 @@ enum {
     SS_MSG_TYPE_MIN = 0,
 
     // <-------------- 新增消息类型 -------------->
-#define SS_TSL_LOG_ENABLE_INFO    "enable traffic self learn log"
-    SS_TSL_LOG_ENABLE_TYPE,
-
-#define SS_TSL_LOG_DISABLE_INFO   "disable traffic self learn log"
-    SS_TSL_LOG_DISABLE_TYPE,
-    // <------------------------------------------->
+    // .......
+    // <----------------------------------------->
 
 #define SS_RESP_RESULT_INFO       "Response message"
     SS_RESP_RESULT_TYPE,
