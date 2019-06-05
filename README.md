@@ -1,2 +1,4 @@
-# event_and_log
-epoll,log
+# 注册日志接口
+## 1、消息初始化
+## 2、ss_msg_register - 消息注册
+## 3、
