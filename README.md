@@ -1,6 +1,8 @@
 # 注册日志接口
 ## 1、消息初始化
-``` int ss_msg_init(int num = 0) ```
+```
+int ss_msg_init(int num = 0)
+```
 
 ## 2、消息注册
 ``` void ss_msg_register(ss_msg_pf func, int type) ```
