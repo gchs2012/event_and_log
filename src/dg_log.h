@@ -73,8 +73,8 @@ void dg_log_print(int num, const char *function,
 #define DG_LOG(_log_num_, ...) \
     if (dg_log_get_mode(_log_num_) != DG_LOG_MODE_DISABLE) \
         dg_log_print(_log_num_, __FUNCTION__, __LINE__,  __VA_ARGS__)
-#define DG_LOG_F(_flag_, _log_num_, fmt) \
-    if (_flag_) DG_LOG(_log_num_, fmt)
+#define DG_LOG_F(_flag_, _log_num_, ...) \
+    if (_flag_) DG_LOG(_log_num_, __VA_ARGS__)
 
 /********************************************************************/
 
